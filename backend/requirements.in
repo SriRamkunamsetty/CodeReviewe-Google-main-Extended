@@ -1,0 +1,33 @@
+fastapi
+uvicorn
+langchain
+litellm
+langgraph
+pygithub
+python-dotenv
+websockets
+pydantic
+mcp
+langchain-mcp-adapters
+langchain-groq
+tree-sitter
+tree-sitter-python
+tree-sitter-javascript
+tree-sitter-typescript
+# Added for Problem-1 "multi-language reviews" (see ARCHITECTURE.md #Code Review Engine)
+tree-sitter-java
+tree-sitter-c
+tree-sitter-cpp
+tree-sitter-go
+tree-sitter-rust
+pywinpty; sys_platform == "win32"
+
+supabase
+
+# Review engine: historical-rule retrieval (TF-IDF) + Python static analysis
+scikit-learn
+ruff
+
+pytest
+pytest-asyncio
+pytest-mock
